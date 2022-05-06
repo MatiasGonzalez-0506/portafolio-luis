@@ -30,7 +30,7 @@ body{
   width: 100%;
   background-size: cover;
   
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg-2.jpg);
   background-attachment: fixed;
 
 }
@@ -40,7 +40,7 @@ body{
 }
 
 .transparent-custom-color{
-    background: rgba(34, 39, 45, 0.6) /* Green background with 30% opacity */
+    background: rgba(24, 24, 24, 0.7) /* Green background with 30% opacity */
 }
 
 .main-text{
