@@ -1,6 +1,33 @@
+@font-face {
+    font-family: montserrat-reg;
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: montserrat-md;
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: source-code-md;
+    src: url("../fonts/SourceCodePro-Medium.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family: source-code-reg;
+    src: url("../fonts/SourceCodePro-Regular.ttf") format("truetype");
+    
+}
+
+body{
+    font-family: 'montserrat-md', sans-serif !important;
+}
 .cover {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   
   background-image: url(../img/bg.jpg);
@@ -19,3 +46,21 @@
 .main-text{
     padding-top: 30vh;
 }
+
+#services .card{
+    border-radius: 2rem !important;
+}
+
+.typed{
+    font-family: source-code-md;
+}
+
+#main-name{
+    font-size: 6rem;
+}
+
+#main-name-desc{
+    font-size: 3rem;
+}
+
+
