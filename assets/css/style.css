@@ -1,66 +1,84 @@
 @font-face {
-    font-family: montserrat-reg;
-    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
-    
+  font-family: montserrat-reg;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: montserrat-md;
-    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
-    
+  font-family: montserrat-md;
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: source-code-md;
-    src: url("../fonts/SourceCodePro-Medium.ttf") format("truetype");
-    
+  font-family: source-code-md;
+  src: url("../fonts/SourceCodePro-Medium.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: source-code-reg;
-    src: url("../fonts/SourceCodePro-Regular.ttf") format("truetype");
-    
+  font-family: source-code-reg;
+  src: url("../fonts/SourceCodePro-Regular.ttf") format("truetype");
 }
 
-body{
-    font-family: 'montserrat-md', sans-serif !important;
+body {
+  font-family: "montserrat-md", sans-serif !important;
 }
 .cover {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  
+
   background-image: url(../img/bg-2.jpg);
   background-attachment: fixed;
-
 }
 
-.navbar{
-    background-color: transparent;
+.navbar {
+  background-color: transparent;
 }
 
-.transparent-custom-color{
-    background: rgba(24, 24, 24, 0.7) /* Green background with 30% opacity */
+.transparent-custom-color {
+  background: rgba(24, 24, 24, 0.7); 
 }
 
-.main-text{
-    padding-top: 30vh;
+.main-text {
+  padding-top: 30vh;
 }
 
-#services .card{
-    border-radius: 2rem !important;
+#services .card {
+  border-radius: 2rem !important;
 }
 
-.typed{
-    font-family: source-code-md;
+.typed {
+  font-family: source-code-md;
 }
 
-#main-name{
-    font-size: 6rem;
+#main-name {
+  font-size: 6rem;
 }
 
-#main-name-desc{
-    font-size: 3rem;
+#main-name-desc {
+  font-size: 3rem;
+}
+
+#about-me .container {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#services, #tecnologies, #portfolio {
+    margin-bottom: 10vh;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
