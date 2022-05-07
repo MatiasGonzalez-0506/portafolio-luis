@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -16,9 +14,7 @@
 </head>
 
 <body>
-
     <div class="cover">
-
         <nav class="navbar navbar-expand-lg navbar-light fixed-top transparent-custom-color">
             <div class="container">
                 <a class="navbar-brand fs-1 fw-bold text-light" href="#">Portfolio</a>
@@ -29,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#about-me">About me</a>
+                            <a class="nav-link text-light" href="#about-me">About me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#services">Services</a>
@@ -60,32 +56,44 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
     </div>
 
     <section id="about-me">
-
-        <div class="container mt-5">
+        <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Consequuntur inventore veritatis at nemo,
-                        soluta autem voluptatem eligendi neque corporis est veniam.
-                        Fuga, perspiciatis saepe ab illum reiciendis vitae doloremque minus!</p>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="fs-1">Hi!</p>
+                    <p class="fs-5">I'm Luis Tobar from Chile, I'm a web designer and developer, one of my great
+                        passions is technology and its impact over the years.
+                        I am big fan of old technology, documentaries about how everything works, games and especially
+                        simracing games.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Nesciunt necessitatibus tempore tempora!</p>
+
                 </div>
 
-                <div class="col-6">
-                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-3 text-center">
+                    <p class="fs-1">You can find me on:</p>
 
-                    <p>Talk with me</p>
+                    <div class="flex-container text-center">
+                        <div class="social my-3">
+                            <a href="https://www.linkedin.com/in/ltobarca/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-3x"></i></a>
+                            <a href="https://github.com/Sherydan" target="_blank"><i
+                                    class="fa-brands fa-github fa-3x"></i></a>
+                            <a href="https://twitter.com/LTobarC" target="_blank"><i
+                                    class="fa-brands fa-twitter fa-3x"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook fa-3x"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i
+                                    class="fa-brands fa-youtube fa-3x"></i></a>
+
+
+                        </div>
+                    </div>
 
                     <a href="#">tobar.luis.c@gmail.com</a>
+                    <p class="my-3"><i class="fa-solid fa-location-dot"></i> Chimbarongo, VI Region, Chile</p>
                 </div>
             </div>
         </div>
@@ -94,7 +102,7 @@
 
 
     <section id="services">
-        <div class="container mt-5">
+        <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1>SERVICES</h1>
@@ -103,9 +111,9 @@
             </div>
         </div>
 
-        <div class="container mb-5">
+        <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-lg-0 offset-md-0 py-sm-1">
                     <div class="card shadow">
                         <div class="card-text text-center">
                             <img src="assets/img/web-design icon.png" class="card-img-top img-fluid w-50 py-3"
@@ -119,11 +127,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-lg-0 offset-md-0 py-sm-1">
                     <div class="card shadow">
                         <div class="card-text text-center">
                             <img src="assets/img/web-development-icon.png" class="card-img-top img-fluid w-50 py-3"
-                                alt="...">
+                                alt="un lapiz y una regla dibujados formando una equis dentro de una pagina web en blanco">
 
                         </div>
                         <div class="card-body">
@@ -133,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-lg-0 offset-md-0 py-sm-1">
                     <div class="card shadow">
                         <div class="card-text text-center">
                             <img src="assets/img/responsive design icon.png" class="card-img-top img-fluid w-50 py-3"
@@ -164,56 +172,58 @@
                         <h1>TECNOLOGIES</h1>
                         <p>Common tecnologies that i use on my projects</p>
                     </div>
-
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-6 offset-3">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="assets/img/bootstrap-icon.png" class="d-block img-fluid" alt="...">
+            <div class="container-carousel">
+                <div class="row w-25">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="assets/img/bootstrap-icon.png" class="d-block img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <img src="assets/img/html5-icon.png" class="d-block img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <img src="assets/img/javascript-icon.png" class="d-block img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <img src="assets/img/java-icon.png" class="d-block img-fluid" alt="...">
+                                </div>
                             </div>
-                            <div class="carousel-item" data-bs-interval="10000">
-                                <img src="assets/img/html5-icon.png" class="d-block img-fluid" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="10000">
-                                <img src="assets/img/javascript-icon.png" class="d-block img-fluid" alt="...">
-                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
-
                 </div>
             </div>
 
         </div>
 
-
-
     </section>
 
+
     <section id="portfolio">
-        <div class="container mt-5">
-            <div class="row mb-4">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 text-center">
                     <h1>Portfolio</h1>
                     <p>Some of my works</p>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
                         <img src="assets/img/cuppon.PNG" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -222,28 +232,31 @@
                                     <h5 class="card-title text-primary fw-bold text-center">Cuppon page</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://sherydan.github.io/DFL-DESAFIO-BOOTSTRAP/" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://sherydan.github.io/DFL-DESAFIO-BOOTSTRAP/" target="_blank"
+                                        class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
-                        <img src="assets/img/iguana-page.PNG" class="card-img-top" alt="Image of the page with a face of a green iguana lloking to the left">
+                        <img src="assets/img/iguana-page.PNG" class="card-img-top"
+                            alt="Image of the page with a face of a green iguana lloking to the left">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-8">
                                     <h5 class="card-title text-primary fw-bold text-center">Iguana page page</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://sherydan.github.io/Iguana-Page/" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://sherydan.github.io/Iguana-Page/" target="_blank"
+                                        class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
                         <img src="assets/img/landing-page.PNG" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -252,16 +265,15 @@
                                     <h5 class="card-title text-primary fw-bold text-center">Landing page</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://sherydan.github.io/DFL-DESAFIO-2-LANDING-PAGE/" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://sherydan.github.io/DFL-DESAFIO-2-LANDING-PAGE/" target="_blank"
+                                        class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
                         <img src="assets/img/minimalistic-photography-page.PNG" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -270,13 +282,14 @@
                                     <h5 class="card-title text-primary fw-bold text-center">Minimalistic page</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://sherydan.github.io/minimalistic-photography-website/" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://sherydan.github.io/minimalistic-photography-website/"
+                                        target="_blank" class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
                         <img src="assets/img/java-mysql.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -285,13 +298,14 @@
                                     <h5 class="card-title text-primary fw-bold text-center">Java and Mysql Classes</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://github.com/Sherydan/JavaClassDBAccess" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://github.com/Sherydan/JavaClassDBAccess" target="_blank"
+                                        class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card shadow">
                         <img src="assets/img/Yandex_Translate_icon.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -300,7 +314,8 @@
                                     <h5 class="card-title text-primary fw-bold text-center">Yandex translator api</h5>
                                 </div>
                                 <div class="col-sm-4 text-center">
-                                    <a href="https://github.com/Sherydan/Traductor-API-Yandex" target="_blank" class="btn btn-primary" type="button">Go to</a>
+                                    <a href="https://github.com/Sherydan/Traductor-API-Yandex" target="_blank"
+                                        class="btn btn-primary text-white" type="button">Go to</a>
                                 </div>
                             </div>
                         </div>
@@ -308,11 +323,10 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section id="contact">
-        <div class="container mt-5 mb-5">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <h1>Lets get in touch!</h1>
@@ -355,11 +369,9 @@
 
 
 
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="assets/js/main.js"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

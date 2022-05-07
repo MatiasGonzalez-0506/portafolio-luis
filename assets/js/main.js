@@ -1,9 +1,6 @@
-/**
-* Template Name: DevFolio - v4.7.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
+
 (function() {
   "use strict";
 
@@ -19,6 +16,7 @@
     }
   }
 
+
   /**
    * Easy event listener function
    */
@@ -32,15 +30,6 @@
       }
     }
   }
-
-  /**
-   * Easy on scroll event listener 
-   */
-  const onscroll = (el, listener) => {
-    el.addEventListener('scroll', listener)
-  }
-
- 
   /**
    * Intro type effect
    */
@@ -59,3 +48,4 @@
 
 
 })()
+
